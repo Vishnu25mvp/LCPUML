@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Health Risk Result</title>
+<style>
+    header {
+        background-color: #fff;
+        color: #333;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Drop shadow for footer */
+        position:static;
+        bottom: 0;
+        width: 100%;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  input[type="number"], input[type="range"], select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .range-slider {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .range-slider input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 12px;
+    background: #d3d3d3;
+    border-radius: 5px;
+    outline: none;
+    margin: 0;
+    padding: 0;
+  }
+  .range-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    background: #4caf50;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+  }
+  .range-slider input[type="range"]::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    background: #4caf50;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+  }
+  .range-slider .slider-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+    margin-top: 8px;
+  }
+  footer {
+        background-color: #fff;
+        color: #333;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Drop shadow for footer */
+        position:static;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+    <header>  <h1>Lung Cancer Prediction Form</h1>
+    </header>
+<div class="container">
+    <h2><center>Health Risk Result</center></h1>
+    <h4><center>You have {{a}} chance to get lung cancer.</center><h3>
+</div>
+<footer>
+    <p>Name: Vishnu Prakash M<br>
+    Roll No: 22MCA094<br>
+    Department of MCA Final Year Project</p>
+</footer>
+</body>
+</html>
+
